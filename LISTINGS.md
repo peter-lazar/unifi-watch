@@ -1,6 +1,6 @@
 # UniFi access points & switches
 
-Last update: **2026-11-06 22:37** (Budapest time) · 3 listings · 🆕 = new in the last run
+Last update: **2026-11-06 22:38** (Budapest time) · 3 listings · 🆕 = new in the last run
 
 > ⚠️ Jófogás: 403 Client Error: Forbidden for url: https://www.jofogas.hu/magyarorszag?q=unifi
 
