@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="hu"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UniFi Watch</title>
+<style>
+:root{--bg:#fff;--fg:#1d1d1f;--muted:#6e6e73;--line:#e5e5ea;--accent:#0064e0;--new:#eaf3ff}
+@media (prefers-color-scheme:dark){:root{--bg:#111;--fg:#f2f2f7;--muted:#9a9aa0;--line:#2c2c2e;--accent:#5aa2ff;--new:#13243b}}
+body{margin:0;padding:16px;background:var(--bg);color:var(--fg);font:15px/1.4 system-ui,sans-serif}
+main{max-width:1000px;margin:auto} h1{margin:0 0 4px} .sub{color:var(--muted);margin-bottom:12px}
+.filters button{border:1px solid var(--line);background:none;color:var(--fg);padding:6px 12px;border-radius:999px;margin:0 4px 8px 0;cursor:pointer}
+.filters button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+table{width:100%;border-collapse:collapse} td{padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.new{background:var(--new)} a{color:var(--accent);text-decoration:none;font-weight:500}
+.meta{color:var(--muted);font-size:13px} .price{white-space:nowrap;font-weight:600}
+.badge{background:var(--accent);color:#fff;border-radius:4px;padding:1px 5px;font-size:11px}
+.err{color:#c0392b}
+@media (max-width:640px){td:nth-child(4),td:nth-child(5){display:none}}
+</style></head><body><main>
+<h1>UniFi access pointok és switchek</h1>
+<div class="sub">Frissítve: 2026-11-06 22:37 · 3 hirdetés · HardverApró + Jófogás</div>
+<p class="err">⚠️ Jófogás: 403 Client Error: Forbidden for url: https://www.jofogas.hu/magyarorszag?q=unifi</p>
+<div class="filters">
+<button class="on" data-f="">Mind</button><button data-f="Access point">Access point</button><button data-f="Switch">Switch</button><button data-f="new">Csak új</button>
+</div>
+<table><tbody><tr class="" data-cat="Access point"><td></td><td><a href="https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point/friss.html" target="_blank" rel="noopener">Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point</a><div class=meta>Access point · HardverApró</div></td><td class=price>50 000 Ft</td><td>Szeged</td><td>ma 20:26</td></tr><tr class="" data-cat="Switch"><td></td><td><a href="https://hardverapro.hu/apro/ubiquiti_unifi_usw-enterprise-8-poe_switch/friss.html" target="_blank" rel="noopener">Ubiquiti / Unifi USW-Enterprise-8-PoE switch</a><div class=meta>Switch · HardverApró</div></td><td class=price>115 000 Ft</td><td>Ajka, Veszprém</td><td>ma 17:26</td></tr><tr class="" data-cat="Switch"><td></td><td><a href="https://hardverapro.hu/apro/ubiquiti_unifi_csomag_us-16-150w_us-48_cloud_key_g/friss.html" target="_blank" rel="noopener">Ubiquiti UniFi csomag - US-16-150W, US-48, Cloud Key Gen2 Plus 2TB + rack - egyben, 140000Ft+ÁFA</a><div class=meta>Switch · HardverApró</div></td><td class=price>177 780 Ft</td><td>VIII. kerület</td><td>ma 15:31</td></tr></tbody></table>
+</main>
+<script>
+document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('.filters button').forEach(x=>x.classList.toggle('on',x===b));
+ const f=b.dataset.f;
+ document.querySelectorAll('tbody tr').forEach(r=>{
+  r.hidden = f==='new' ? !r.classList.contains('new') : (f && !r.dataset.cat.startsWith(f) && !(f==='Switch'&&r.dataset.cat.endsWith('Switch')));
+ });
+});
+</script></body></html>
