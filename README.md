@@ -6,7 +6,7 @@ notification to your phone** when a new ad shows up.
 
 - 📋 List: [`LISTINGS.md`](LISTINGS.md), or the web page in `docs/` (GitHub Pages)
 - 🔔 Push: [ntfy](https://ntfy.sh) (free app for Android / iOS, no account needed)
-- ⏰ Schedule: 07:00, 12:00 and 19:00 Budapest time (08:00 / 13:00 / 20:00 in summer), via GitHub Actions
+- ⏰ Schedule: 08:00, 12:00 and 19:00 Budapest time (09:00 / 13:00 / 20:00 in summer), via GitHub Actions
 
 ## Setup (5 minutes)
 

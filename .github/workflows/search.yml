@@ -2,9 +2,9 @@ name: UniFi search
 
 on:
   schedule:
-    # Times are UTC. 06:00 / 11:00 / 18:00 UTC = 07:00 / 12:00 / 19:00 in Budapest in winter
-    # (08:00 / 13:00 / 20:00 in summer). GitHub may start scheduled runs a few minutes late.
-    - cron: "0 6 * * *"
+    # Times are UTC. 07:00 / 11:00 / 18:00 UTC = 08:00 / 12:00 / 19:00 in Budapest in winter
+    # (09:00 / 13:00 / 20:00 in summer). GitHub may start scheduled runs a few minutes late.
+    - cron: "0 7 * * *"
     - cron: "0 11 * * *"
     - cron: "0 18 * * *"
   workflow_dispatch: {}   # "Run workflow" button for a manual search
