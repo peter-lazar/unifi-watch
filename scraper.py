@@ -261,7 +261,7 @@ def notify(new_items: list[dict], title: str | None = None) -> None:
     topic = os.environ.get("NTFY_TOPIC", "").strip()
     if not topic or not new_items:
         return
-    server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
+    server = (os.environ.get("NTFY_SERVER") or "https://ntfy.sh").strip().rstrip("/")
     page_url = os.environ.get("PAGE_URL", "").strip()
     lines = [f"• {x['title']} – {x['price']} ({x['source']})" for x in new_items[:15]]
     if len(new_items) > 15:
@@ -346,7 +346,10 @@ def main() -> int:
     for x in new_items:
         print(f"  NEW {x['source']}: {x['title']} {x['price']} {x['url']}")
     try:
-        if first_run and listings:
+        if os.environ.get("TEST_PUSH") == "true":
+            notify(listings or [{"title": "nincs találat", "price": "", "source": "-", "url": "https://ntfy.sh"}],
+                   title=f"UniFi figyelő teszt – {len(listings)} hirdetés a listán")
+        elif first_run and listings:
             # First run: nothing is "new" yet; send one push so you can see notifications work.
             notify(listings, title=f"UniFi figyelő elindult – {len(listings)} hirdetés a listán")
         else:
