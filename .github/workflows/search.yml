@@ -50,5 +50,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data LISTINGS.md docs
-          git diff --cached --quiet || git commit -m "Update UniFi listings $(TZ=Europe/Budapest date '+%Y-%m-%d %H:%M')"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Update UniFi listings $(TZ=Europe/Budapest date '+%Y-%m-%d %H:%M')"
+          # If someone pushed meanwhile (e.g. another run or a code change), rebase on top and retry.
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase -X theirs origin main || { git rebase --abort; exit 1; }
+            sleep 5
+          done
+          exit 1
