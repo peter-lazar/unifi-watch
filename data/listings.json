@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07 08:49",
+ "updated": "2026-11-07 12:27",
  "listings": [
   {
    "id": "hva-7743247",
@@ -9,11 +9,25 @@
    "price": "29 000 Ft",
    "on_hold": false,
    "location": "Nyírbátor",
-   "posted": "ma 08:14",
+   "posted": "ma 12:01",
    "category": "Access point",
-   "last_seen": "2026-11-07 08:49",
+   "last_seen": "2026-11-07 12:27",
    "first_seen": "2026-11-07 08:49",
-   "is_new": true
+   "is_new": false
+  },
+  {
+   "id": "hva-7781358",
+   "source": "HardverApró",
+   "title": "Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point",
+   "url": "https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point/friss.html",
+   "price": "50 000 Ft",
+   "on_hold": false,
+   "location": "Szeged",
+   "posted": "ma 11:06",
+   "category": "Access point",
+   "last_seen": "2026-11-07 12:27",
+   "first_seen": "2026-11-06 22:37",
+   "is_new": false
   },
   {
    "id": "hva-7785819",
@@ -25,21 +39,7 @@
    "location": "VIII. kerület",
    "posted": "tegnap 15:31",
    "category": "Switch",
-   "last_seen": "2026-11-07 08:49",
-   "first_seen": "2026-11-06 22:37",
-   "is_new": false
-  },
-  {
-   "id": "hva-7781358",
-   "source": "HardverApró",
-   "title": "Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point",
-   "url": "https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point/friss.html",
-   "price": "50 000 Ft",
-   "on_hold": false,
-   "location": "Szeged",
-   "posted": "ma 20:26",
-   "category": "Access point",
-   "last_seen": "2026-11-06 22:42",
+   "last_seen": "2026-11-07 12:27",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
