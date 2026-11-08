@@ -1,20 +1,6 @@
 {
- "updated": "2026-11-08 20:26",
+ "updated": "2026-11-09 00:42",
  "listings": [
-  {
-   "id": "hva-7774228",
-   "source": "HardverApró",
-   "title": "Unifi US-48 switch, hibatlan, tesztelve",
-   "url": "https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html",
-   "price": "79 990 Ft",
-   "on_hold": false,
-   "location": "Budapest, Lajosmizse, Nagykőrös",
-   "posted": "ma 08:49",
-   "category": "Switch",
-   "last_seen": "2026-11-08 12:27",
-   "first_seen": "2026-11-08 08:49",
-   "is_new": false
-  },
   {
    "id": "hva-7743247",
    "source": "HardverApró",
@@ -25,9 +11,23 @@
    "location": "Nyírbátor",
    "posted": "Előresorolva",
    "category": "Access point",
-   "last_seen": "2026-11-08 20:26",
-   "first_seen": "2026-11-07 08:49",
-   "is_new": false
+   "last_seen": "2026-11-09 00:42",
+   "first_seen": "2026-11-09 00:42",
+   "is_new": true
+  },
+  {
+   "id": "hva-7774228",
+   "source": "HardverApró",
+   "title": "Unifi US-48 switch, hibatlan, tesztelve",
+   "url": "https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html",
+   "price": "79 990 Ft",
+   "on_hold": false,
+   "location": "Budapest, Lajosmizse, Nagykőrös",
+   "posted": "tegnap 22:24",
+   "category": "Switch",
+   "last_seen": "2026-11-09 00:42",
+   "first_seen": "2026-11-09 00:42",
+   "is_new": true
   },
   {
    "id": "hva-7781358",
@@ -37,9 +37,9 @@
    "price": "50 000 Ft",
    "on_hold": false,
    "location": "Szeged",
-   "posted": "ma 17:20",
+   "posted": "tegnap 20:26",
    "category": "Access point",
-   "last_seen": "2026-11-08 20:26",
+   "last_seen": "2026-11-09 00:42",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
@@ -53,7 +53,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-08 20:26",
+   "last_seen": "2026-11-09 00:42",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
@@ -67,7 +67,7 @@
    "location": "Ajka, Veszprém",
    "posted": "ma 17:26",
    "category": "Switch",
-   "last_seen": "2026-11-06 22:42",
+   "last_seen": "2026-11-06 22:41",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   }

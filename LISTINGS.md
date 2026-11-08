@@ -1,6 +1,6 @@
 # UniFi access points & switches
 
-Last update: **2026-11-08 20:26** (Budapest time) · 5 listings · 🆕 = new in the last run
+Last update: **2026-11-09 00:42** (Budapest time) · 5 listings · 🆕 = new in the last run
 
 > ⚠️ Jófogás: 403 Client Error: Forbidden for url: https://www.jofogas.hu/magyarorszag?q=unifi
 
@@ -8,13 +8,13 @@ Last update: **2026-11-08 20:26** (Budapest time) · 5 listings · 🆕 = new in
 
 | | Item | Price | Location | Site | Posted |
 |---|---|---|---|---|---|
-|  | [Új Original dobozos Ubiquiti UniFi UAP-AC-LR](https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html) | 29 000 Ft | Nyírbátor | HardverApró | Előresorolva |
-|  | [Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point](https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point/friss.html) | 50 000 Ft | Szeged | HardverApró | ma 17:20 |
+| 🆕 | [Új Original dobozos Ubiquiti UniFi UAP-AC-LR](https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html) | 29 000 Ft | Nyírbátor | HardverApró | Előresorolva |
+|  | [Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point](https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point/friss.html) | 50 000 Ft | Szeged | HardverApró | tegnap 20:26 |
 
 ## Switch (3)
 
 | | Item | Price | Location | Site | Posted |
 |---|---|---|---|---|---|
-|  | [Unifi US-48 switch, hibatlan, tesztelve](https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html) | 79 990 Ft | Budapest, Lajosmizse, Nagykőrös | HardverApró | ma 08:49 |
+| 🆕 | [Unifi US-48 switch, hibatlan, tesztelve](https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html) | 79 990 Ft | Budapest, Lajosmizse, Nagykőrös | HardverApró | tegnap 22:24 |
 |  | [Ubiquiti UniFi csomag - US-16-150W, US-48, Cloud Key Gen2 Plus 2TB + rack - egyben, 140000Ft+ÁFA](https://hardverapro.hu/apro/ubiquiti_unifi_csomag_us-16-150w_us-48_cloud_key_g/friss.html) | 177 780 Ft | VIII. kerület | HardverApró | 2026-11-06 |
 |  | [Ubiquiti / Unifi USW-Enterprise-8-PoE switch](https://hardverapro.hu/apro/ubiquiti_unifi_usw-enterprise-8-poe_switch/friss.html) | 115 000 Ft | Ajka, Veszprém | HardverApró | ma 17:26 |
