@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-07 19:25",
+ "updated": "2026-11-08 08:49",
  "listings": [
+  {
+   "id": "hva-7774228",
+   "source": "HardverApró",
+   "title": "Unifi US-48 switch, hibatlan, tesztelve",
+   "url": "https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html",
+   "price": "79 990 Ft",
+   "on_hold": false,
+   "location": "Budapest, Lajosmizse, Nagykőrös",
+   "posted": "ma 08:49",
+   "category": "Switch",
+   "last_seen": "2026-11-08 08:49",
+   "first_seen": "2026-11-08 08:49",
+   "is_new": true
+  },
   {
    "id": "hva-7743247",
    "source": "HardverApró",
@@ -16,6 +30,20 @@
    "is_new": false
   },
   {
+   "id": "hva-7785819",
+   "source": "HardverApró",
+   "title": "Ubiquiti UniFi csomag - US-16-150W, US-48, Cloud Key Gen2 Plus 2TB + rack - egyben, 140000Ft+ÁFA",
+   "url": "https://hardverapro.hu/apro/ubiquiti_unifi_csomag_us-16-150w_us-48_cloud_key_g/friss.html",
+   "price": "177 780 Ft",
+   "on_hold": false,
+   "location": "VIII. kerület",
+   "posted": "2026-11-06",
+   "category": "Switch",
+   "last_seen": "2026-11-08 08:49",
+   "first_seen": "2026-11-06 22:37",
+   "is_new": false
+  },
+  {
    "id": "hva-7781358",
    "source": "HardverApró",
    "title": "Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point",
@@ -25,20 +53,6 @@
    "location": "Szeged",
    "posted": "ma 17:20",
    "category": "Access point",
-   "last_seen": "2026-11-07 19:25",
-   "first_seen": "2026-11-06 22:37",
-   "is_new": false
-  },
-  {
-   "id": "hva-7785819",
-   "source": "HardverApró",
-   "title": "Ubiquiti UniFi csomag - US-16-150W, US-48, Cloud Key Gen2 Plus 2TB + rack - egyben, 140000Ft+ÁFA",
-   "url": "https://hardverapro.hu/apro/ubiquiti_unifi_csomag_us-16-150w_us-48_cloud_key_g/friss.html",
-   "price": "177 780 Ft",
-   "on_hold": false,
-   "location": "VIII. kerület",
-   "posted": "tegnap 15:31",
-   "category": "Switch",
    "last_seen": "2026-11-07 19:25",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
