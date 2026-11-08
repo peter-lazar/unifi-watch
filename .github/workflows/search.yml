@@ -2,11 +2,14 @@ name: UniFi search
 
 on:
   schedule:
-    # Times are UTC. 07:00 / 11:00 / 18:00 UTC = 08:00 / 12:00 / 19:00 in Budapest in winter
-    # (09:00 / 13:00 / 20:00 in summer). GitHub may start scheduled runs a few minutes late.
-    - cron: "0 7 * * *"
-    - cron: "0 11 * * *"
-    - cron: "0 18 * * *"
+    # Times are UTC. Budapest is UTC+1 in winter, UTC+2 in summer.
+    # Target: 07:00, 11:00, 14:00, 17:00, 20:00 Budapest (winter; one hour later in summer).
+    # Set 15 min early because GitHub starts jobs scheduled at the top of the hour 25-50 min late.
+    - cron: "45 5 * * *"    # ~07:00
+    - cron: "45 9 * * *"    # ~11:00
+    - cron: "45 12 * * *"   # ~14:00
+    - cron: "45 15 * * *"   # ~17:00
+    - cron: "45 18 * * *"   # ~20:00
   workflow_dispatch:   # "Run workflow" button for a manual search
     inputs:
       test_push:

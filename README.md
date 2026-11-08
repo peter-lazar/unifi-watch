@@ -1,12 +1,13 @@
 # UniFi Watch
 
 Searches **hardverapro.hu** and **jofogas.hu** for used **UniFi access points and switches**
-three times a day (morning, noon, evening), keeps a list with links, and sends a **push
+five times a day (about 7:00, 11:00, 14:00, 17:00 and 20:00), keeps a list with links, and sends a **push
 notification to your phone** when a new ad shows up.
 
 - 📋 List: [`LISTINGS.md`](LISTINGS.md), or the web page in `docs/` (GitHub Pages)
 - 🔔 Push: [ntfy](https://ntfy.sh) (free app for Android / iOS, no account needed)
-- ⏰ Schedule: 08:00, 12:00 and 19:00 Budapest time (09:00 / 13:00 / 20:00 in summer), via GitHub Actions
+- ⏰ Schedule: about 07:00, 11:00, 14:00, 17:00 and 20:00 Budapest time (one hour later in summer), via GitHub Actions.
+  GitHub starts scheduled jobs late at busy times, so the jobs are set 15 minutes early; expect them within roughly ±15 minutes.
 
 ## Setup (5 minutes)
 
