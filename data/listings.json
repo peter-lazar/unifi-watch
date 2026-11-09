@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 00:42",
+ "updated": "2026-11-09 07:47",
  "listings": [
   {
    "id": "hva-7743247",
@@ -11,9 +11,9 @@
    "location": "Nyírbátor",
    "posted": "Előresorolva",
    "category": "Access point",
-   "last_seen": "2026-11-09 00:42",
+   "last_seen": "2026-11-09 07:47",
    "first_seen": "2026-11-09 00:42",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "hva-7774228",
@@ -25,9 +25,9 @@
    "location": "Budapest, Lajosmizse, Nagykőrös",
    "posted": "tegnap 22:24",
    "category": "Switch",
-   "last_seen": "2026-11-09 00:42",
+   "last_seen": "2026-11-09 07:47",
    "first_seen": "2026-11-09 00:42",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "hva-7781358",
@@ -39,7 +39,7 @@
    "location": "Szeged",
    "posted": "tegnap 20:26",
    "category": "Access point",
-   "last_seen": "2026-11-09 00:42",
+   "last_seen": "2026-11-09 07:47",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
@@ -53,7 +53,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-09 00:42",
+   "last_seen": "2026-11-09 07:47",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
