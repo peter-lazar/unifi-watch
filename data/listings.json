@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 14:54",
+ "updated": "2026-11-09 17:45",
  "listings": [
   {
    "id": "hva-7790148",
@@ -13,19 +13,19 @@
    "category": "Access point",
    "last_seen": "2026-11-09 14:54",
    "first_seen": "2026-11-09 14:54",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "hva-7774228",
    "source": "HardverApró",
    "title": "Unifi US-48 switch, hibatlan, tesztelve",
    "url": "https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html",
-   "price": "79 990 Ft",
+   "price": "75 990 Ft",
    "on_hold": false,
    "location": "Budapest, Lajosmizse, Nagykőrös",
-   "posted": "ma 13:38",
+   "posted": "ma 16:28",
    "category": "Switch",
-   "last_seen": "2026-11-09 14:54",
+   "last_seen": "2026-11-09 17:45",
    "first_seen": "2026-11-09 00:42",
    "is_new": false
   },
@@ -53,7 +53,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-09 14:54",
+   "last_seen": "2026-11-09 17:45",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
