@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09 07:47",
+ "updated": "2026-11-09 11:29",
  "listings": [
   {
    "id": "hva-7743247",
@@ -9,9 +9,9 @@
    "price": "29 000 Ft",
    "on_hold": false,
    "location": "Nyírbátor",
-   "posted": "Előresorolva",
+   "posted": "ma 08:18",
    "category": "Access point",
-   "last_seen": "2026-11-09 07:47",
+   "last_seen": "2026-11-09 11:29",
    "first_seen": "2026-11-09 00:42",
    "is_new": false
   },
@@ -37,9 +37,9 @@
    "price": "50 000 Ft",
    "on_hold": false,
    "location": "Szeged",
-   "posted": "tegnap 20:26",
+   "posted": "ma 11:06",
    "category": "Access point",
-   "last_seen": "2026-11-09 07:47",
+   "last_seen": "2026-11-09 11:29",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
@@ -53,7 +53,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-09 07:47",
+   "last_seen": "2026-11-09 11:29",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
