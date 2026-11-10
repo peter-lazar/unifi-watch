@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10 11:35",
+ "updated": "2026-11-10 14:48",
  "listings": [
   {
    "id": "hva-7767831",
@@ -11,9 +11,9 @@
    "location": "Székesfehérvár, Várpalota, Veszprém",
    "posted": "ma 08:35",
    "category": "Access point",
-   "last_seen": "2026-11-10 11:35",
+   "last_seen": "2026-11-10 14:48",
    "first_seen": "2026-11-10 11:35",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "hva-7791468",
@@ -44,20 +44,6 @@
    "is_new": false
   },
   {
-   "id": "hva-7743247",
-   "source": "HardverApró",
-   "title": "Új Original dobozos Ubiquiti UniFi UAP-AC-LR",
-   "url": "https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html",
-   "price": "29 000 Ft",
-   "on_hold": false,
-   "location": "Nyírbátor",
-   "posted": "ma 08:37",
-   "category": "Access point",
-   "last_seen": "2026-11-10 11:35",
-   "first_seen": "2026-11-09 00:42",
-   "is_new": false
-  },
-  {
    "id": "hva-7774228",
    "source": "HardverApró",
    "title": "Unifi US-48 switch, hibatlan, tesztelve",
@@ -65,9 +51,23 @@
    "price": "75 990 Ft",
    "on_hold": false,
    "location": "Budapest, Lajosmizse, Nagykőrös",
-   "posted": "tegnap 16:28",
+   "posted": "ma 12:25",
    "category": "Switch",
-   "last_seen": "2026-11-10 07:39",
+   "last_seen": "2026-11-10 14:48",
+   "first_seen": "2026-11-09 00:42",
+   "is_new": false
+  },
+  {
+   "id": "hva-7743247",
+   "source": "HardverApró",
+   "title": "Új Original dobozos Ubiquiti UniFi UAP-AC-LR",
+   "url": "https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html",
+   "price": "29 000 Ft",
+   "on_hold": false,
+   "location": "Nyírbátor",
+   "posted": "ma 12:00",
+   "category": "Access point",
+   "last_seen": "2026-11-10 14:48",
    "first_seen": "2026-11-09 00:42",
    "is_new": false
   },
@@ -81,7 +81,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-10 11:35",
+   "last_seen": "2026-11-10 14:48",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
