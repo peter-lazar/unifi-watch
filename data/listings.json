@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10 07:39",
+ "updated": "2026-11-10 11:35",
  "listings": [
+  {
+   "id": "hva-7767831",
+   "source": "HardverApró",
+   "title": "Ubiquiti UniFi Express 6 (UX) - Wi-Fi 6 Cloud Gateway / AP",
+   "url": "https://hardverapro.hu/apro/ubiquiti_unifi_express_6_ux_wi-fi_6_cloud_gateway/friss.html",
+   "price": "40 000 Ft",
+   "on_hold": false,
+   "location": "Székesfehérvár, Várpalota, Veszprém",
+   "posted": "ma 08:35",
+   "category": "Access point",
+   "last_seen": "2026-11-10 11:35",
+   "first_seen": "2026-11-10 11:35",
+   "is_new": true
+  },
   {
    "id": "hva-7791468",
    "source": "HardverApró",
@@ -9,11 +23,11 @@
    "price": "199 990 Ft",
    "on_hold": false,
    "location": "IX. kerület, XXI. kerület",
-   "posted": "ma 06:21",
+   "posted": "ma 08:00",
    "category": "Switch",
-   "last_seen": "2026-11-10 07:39",
+   "last_seen": "2026-11-10 11:35",
    "first_seen": "2026-11-10 07:39",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "hva-7790148",
@@ -27,6 +41,20 @@
    "category": "Access point",
    "last_seen": "2026-11-09 20:42",
    "first_seen": "2026-11-09 14:54",
+   "is_new": false
+  },
+  {
+   "id": "hva-7743247",
+   "source": "HardverApró",
+   "title": "Új Original dobozos Ubiquiti UniFi UAP-AC-LR",
+   "url": "https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html",
+   "price": "29 000 Ft",
+   "on_hold": false,
+   "location": "Nyírbátor",
+   "posted": "ma 08:37",
+   "category": "Access point",
+   "last_seen": "2026-11-10 11:35",
+   "first_seen": "2026-11-09 00:42",
    "is_new": false
   },
   {
@@ -44,20 +72,6 @@
    "is_new": false
   },
   {
-   "id": "hva-7743247",
-   "source": "HardverApró",
-   "title": "Új Original dobozos Ubiquiti UniFi UAP-AC-LR",
-   "url": "https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html",
-   "price": "29 000 Ft",
-   "on_hold": false,
-   "location": "Nyírbátor",
-   "posted": "ma 12:00",
-   "category": "Access point",
-   "last_seen": "2026-11-09 14:54",
-   "first_seen": "2026-11-09 00:42",
-   "is_new": false
-  },
-  {
    "id": "hva-7785819",
    "source": "HardverApró",
    "title": "Ubiquiti UniFi csomag - US-16-150W, US-48, Cloud Key Gen2 Plus 2TB + rack - egyben, 140000Ft+ÁFA",
@@ -67,7 +81,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-10 07:39",
+   "last_seen": "2026-11-10 11:35",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
