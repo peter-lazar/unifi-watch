@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11 11:39",
+ "updated": "2026-11-11 14:53",
  "listings": [
   {
    "id": "hva-7767831",
@@ -44,20 +44,6 @@
    "is_new": false
   },
   {
-   "id": "hva-7774228",
-   "source": "HardverApró",
-   "title": "Unifi US-48 switch, hibatlan, tesztelve",
-   "url": "https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html",
-   "price": "75 990 Ft",
-   "on_hold": false,
-   "location": "Budapest, Lajosmizse, Nagykőrös",
-   "posted": "tegnap 21:18",
-   "category": "Switch",
-   "last_seen": "2026-11-11 07:43",
-   "first_seen": "2026-11-09 00:42",
-   "is_new": false
-  },
-  {
    "id": "hva-7743247",
    "source": "HardverApró",
    "title": "Új Original dobozos Ubiquiti UniFi UAP-AC-LR",
@@ -67,7 +53,21 @@
    "location": "Nyírbátor",
    "posted": "ma 12:00",
    "category": "Access point",
-   "last_seen": "2026-11-10 14:48",
+   "last_seen": "2026-11-11 14:53",
+   "first_seen": "2026-11-09 00:42",
+   "is_new": false
+  },
+  {
+   "id": "hva-7774228",
+   "source": "HardverApró",
+   "title": "Unifi US-48 switch",
+   "url": "https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html",
+   "price": "75 990 Ft",
+   "on_hold": false,
+   "location": "Budapest, Lajosmizse, Nagykőrös",
+   "posted": "ma 11:42",
+   "category": "Switch",
+   "last_seen": "2026-11-11 14:53",
    "first_seen": "2026-11-09 00:42",
    "is_new": false
   },
@@ -81,7 +81,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-11 11:39",
+   "last_seen": "2026-11-11 14:53",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
