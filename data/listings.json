@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 14:54",
+ "updated": "2026-11-12 17:41",
  "listings": [
   {
    "id": "hva-7767831",
@@ -72,20 +72,6 @@
    "is_new": false
   },
   {
-   "id": "hva-7771085",
-   "source": "HardverApró",
-   "title": "Ubiquiti / Unifi USW-Enterprise-8-PoE switch",
-   "url": "https://hardverapro.hu/apro/ubiquiti_unifi_usw-enterprise-8-poe_switch/friss.html",
-   "price": "110 000 Ft",
-   "on_hold": false,
-   "location": "Ajka, Veszprém",
-   "posted": "ma 09:17",
-   "category": "Switch",
-   "last_seen": "2026-11-12 14:54",
-   "first_seen": "2026-11-06 22:37",
-   "is_new": false
-  },
-  {
    "id": "hva-7785819",
    "source": "HardverApró",
    "title": "Ubiquiti UniFi csomag - US-16-150W, US-48, Cloud Key Gen2 Plus 2TB + rack - egyben, 140000Ft+ÁFA",
@@ -94,6 +80,20 @@
    "on_hold": false,
    "location": "VIII. kerület",
    "posted": "2026-11-06",
+   "category": "Switch",
+   "last_seen": "2026-11-12 17:41",
+   "first_seen": "2026-11-06 22:37",
+   "is_new": false
+  },
+  {
+   "id": "hva-7771085",
+   "source": "HardverApró",
+   "title": "Ubiquiti / Unifi USW-Enterprise-8-PoE switch",
+   "url": "https://hardverapro.hu/apro/ubiquiti_unifi_usw-enterprise-8-poe_switch/friss.html",
+   "price": "110 000 Ft",
+   "on_hold": false,
+   "location": "Ajka, Veszprém",
+   "posted": "ma 09:17",
    "category": "Switch",
    "last_seen": "2026-11-12 14:54",
    "first_seen": "2026-11-06 22:37",
