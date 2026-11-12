@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 11:40",
+ "updated": "2026-11-12 14:54",
  "listings": [
   {
    "id": "hva-7767831",
@@ -44,6 +44,20 @@
    "is_new": false
   },
   {
+   "id": "hva-7743247",
+   "source": "HardverApró",
+   "title": "Új Original dobozos Ubiquiti UniFi UAP-AC-LR",
+   "url": "https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html",
+   "price": "29 000 Ft",
+   "on_hold": false,
+   "location": "Nyírbátor",
+   "posted": "ma 14:26",
+   "category": "Access point",
+   "last_seen": "2026-11-12 14:54",
+   "first_seen": "2026-11-09 00:42",
+   "is_new": false
+  },
+  {
    "id": "hva-7774228",
    "source": "HardverApró",
    "title": "Unifi US-48 switch",
@@ -53,21 +67,7 @@
    "location": "Budapest, Lajosmizse, Nagykőrös",
    "posted": "ma 11:31",
    "category": "Switch",
-   "last_seen": "2026-11-12 11:40",
-   "first_seen": "2026-11-09 00:42",
-   "is_new": false
-  },
-  {
-   "id": "hva-7743247",
-   "source": "HardverApró",
-   "title": "Új Original dobozos Ubiquiti UniFi UAP-AC-LR",
-   "url": "https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html",
-   "price": "29 000 Ft",
-   "on_hold": false,
-   "location": "Nyírbátor",
-   "posted": "ma 12:00",
-   "category": "Access point",
-   "last_seen": "2026-11-11 14:53",
+   "last_seen": "2026-11-12 14:54",
    "first_seen": "2026-11-09 00:42",
    "is_new": false
   },
@@ -81,7 +81,7 @@
    "location": "Ajka, Veszprém",
    "posted": "ma 09:17",
    "category": "Switch",
-   "last_seen": "2026-11-12 11:40",
+   "last_seen": "2026-11-12 14:54",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
@@ -95,7 +95,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-12 11:40",
+   "last_seen": "2026-11-12 14:54",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
