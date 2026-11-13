@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 07:43",
+ "updated": "2026-11-13 11:38",
  "listings": [
   {
    "id": "hva-7767831",
@@ -51,9 +51,9 @@
    "price": "29 000 Ft",
    "on_hold": false,
    "location": "Nyírbátor",
-   "posted": "tegnap 22:03",
+   "posted": "ma 11:37",
    "category": "Access point",
-   "last_seen": "2026-11-13 07:43",
+   "last_seen": "2026-11-13 11:38",
    "first_seen": "2026-11-09 00:42",
    "is_new": false
   },
@@ -62,12 +62,12 @@
    "source": "HardverApró",
    "title": "Unifi US-48 switch",
    "url": "https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html",
-   "price": "75 990 Ft",
+   "price": "71 990 Ft",
    "on_hold": false,
    "location": "Budapest, Lajosmizse, Nagykőrös",
-   "posted": "ma 11:31",
+   "posted": "ma 10:26",
    "category": "Switch",
-   "last_seen": "2026-11-12 14:54",
+   "last_seen": "2026-11-13 11:38",
    "first_seen": "2026-11-09 00:42",
    "is_new": false
   },
@@ -77,11 +77,11 @@
    "title": "Ubiquiti UniFi csomag - US-16-150W, US-48, Cloud Key Gen2 Plus 2TB + rack - egyben, 140000Ft+ÁFA",
    "url": "https://hardverapro.hu/apro/ubiquiti_unifi_csomag_us-16-150w_us-48_cloud_key_g/friss.html",
    "price": "177 780 Ft",
-   "on_hold": false,
+   "on_hold": true,
    "location": "VIII. kerület",
    "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-13 07:43",
+   "last_seen": "2026-11-13 11:38",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
