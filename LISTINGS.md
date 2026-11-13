@@ -1,8 +1,8 @@
 # UniFi access points & switches
 
-Last update: **2026-11-12 20:39** (Budapest time) · 8 listings · 🆕 = new in the last run
+Last update: **2026-11-13 07:43** (Budapest time) · 8 listings · 🆕 = new in the last run
 
-> ⚠️ Jófogás: 429 Client Error: Too Many Requests for url: https://www.jofogas.hu/magyarorszag?q=unifi
+> ⚠️ Jófogás: 403 Client Error: Forbidden for url: https://www.jofogas.hu/magyarorszag?q=unifi
 
 ## Access point (4)
 
@@ -10,7 +10,7 @@ Last update: **2026-11-12 20:39** (Budapest time) · 8 listings · 🆕 = new in
 |---|---|---|---|---|---|
 |  | [Ubiquiti UniFi Express 6 (UX) - Wi-Fi 6 Cloud Gateway / AP](https://hardverapro.hu/apro/ubiquiti_unifi_express_6_ux_wi-fi_6_cloud_gateway/friss.html) | 40 000 Ft | Székesfehérvár, Várpalota, Veszprém | HardverApró | ma 08:35 |
 |  | [Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point + ajándék PoE adapter](https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point_ajandek/friss.html) | 38 000 Ft | Szeged | HardverApró | ma 20:02 |
-|  | [Új Original dobozos Ubiquiti UniFi UAP-AC-LR](https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html) | 29 000 Ft | Nyírbátor | HardverApró | ma 14:26 |
+|  | [Új Original dobozos Ubiquiti UniFi UAP-AC-LR](https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html) | 29 000 Ft | Nyírbátor | HardverApró | tegnap 22:03 |
 |  | [Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point](https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point/friss.html) | 50 000 Ft | Szeged | HardverApró | ma 11:06 |
 
 ## Switch (4)
