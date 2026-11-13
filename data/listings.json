@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 11:38",
+ "updated": "2026-11-13 14:52",
  "listings": [
   {
    "id": "hva-7767831",
@@ -51,9 +51,9 @@
    "price": "29 000 Ft",
    "on_hold": false,
    "location": "Nyírbátor",
-   "posted": "ma 11:37",
+   "posted": "ma 12:00",
    "category": "Access point",
-   "last_seen": "2026-11-13 11:38",
+   "last_seen": "2026-11-13 14:52",
    "first_seen": "2026-11-09 00:42",
    "is_new": false
   },
@@ -67,7 +67,7 @@
    "location": "Budapest, Lajosmizse, Nagykőrös",
    "posted": "ma 10:26",
    "category": "Switch",
-   "last_seen": "2026-11-13 11:38",
+   "last_seen": "2026-11-13 14:52",
    "first_seen": "2026-11-09 00:42",
    "is_new": false
   },
@@ -81,7 +81,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-13 11:38",
+   "last_seen": "2026-11-13 14:52",
    "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
