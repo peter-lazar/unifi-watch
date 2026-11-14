@@ -1,6 +1,6 @@
 # UniFi Watch
 
-Searches **hardverapro.hu** and **jofogas.hu** for used **UniFi access points and switches**
+Searches **hardverapro.hu** for used **UniFi access points and switches**
 five times a day (about 7:00, 11:00, 14:00, 17:00 and 20:00), keeps a list with links, and sends a **push
 notification to your phone** when a new ad shows up.
 
@@ -30,8 +30,7 @@ notification to your phone** when a new ad shows up.
 
 | Site | What is read |
 |---|---|
-| Jófogás | The keyword search `unifi` (all of Hungary, up to 5 result pages) |
-| HardverApró | The newest ads in *Wifi repeater, access point* and *Switch, hub* (these narrow subcategories reach back hours to weeks), plus *Router, switch, repeater*, *Szerver hálózati eszközök* and *Hálózati termékek* as a safety net. HardverApró's keyword search is not served to automated clients, so new ads are caught as they appear (3× a day is plenty). Ads that have dropped out of that window stay on the list for 21 days. |
+| HardverApró | The newest ads in *Wifi repeater, access point* and *Switch, hub* (these narrow subcategories reach back hours to weeks), plus *Router, switch, repeater*, *Szerver hálózati eszközök* and *Hálózati termékek* as a safety net. HardverApró's keyword search is not served to automated clients, so new ads are caught as they appear (8 runs a day, including the quiet night runs). Ads that have dropped out of that window stay on the list for 21 days. |
 
 Each title is classified as **Access point** or **Switch** (`classify()` in `scraper.py`). Gateways,
 Cloud Keys, cameras, SFP modules, covers and "wanted" ads are left out. Edit the pattern lists at the top of

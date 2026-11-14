@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""UniFi watch: search hardverapro.hu and jofogas.hu for UniFi access points and
+"""UniFi watch: search hardverapro.hu for UniFi access points and
 switches, keep a list of the current listings, and send a push notification
 (ntfy.sh) for new ones."""
 
@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import quote_plus, urljoin
+from urllib.parse import urljoin
 from zoneinfo import ZoneInfo
 
 import requests
@@ -25,9 +25,8 @@ MARKDOWN = ROOT / "LISTINGS.md"
 PAGE = ROOT / "docs" / "index.html"
 TZ = ZoneInfo("Europe/Budapest")
 
-JOFOGAS_QUERIES = ["unifi"]
 # Ads that drop out of HardverApró's newest-100 category window are kept this long
-# (we cannot tell whether they were sold). Jófogás ads are removed as soon as they disappear.
+# (we cannot tell whether they were sold).
 HVA_KEEP_DAYS = 21
 # No pushes between these hours (Budapest time); ads found then are sent in the first push after.
 QUIET_FROM, QUIET_UNTIL = 22, 6
@@ -133,52 +132,7 @@ def fetch_hardverapro(session: requests.Session) -> list[dict]:
     return items
 
 
-def fetch_jofogas(session: requests.Session) -> list[dict]:
-    items = []
-    for query in JOFOGAS_QUERIES:
-        items += _jofogas_query(session, query)
-    return items
-
-
-def _jofogas_query(session: requests.Session, query: str) -> list[dict]:
-    items = []
-    page = 1
-    while page <= 5:
-        url = f"https://www.jofogas.hu/magyarorszag?q={quote_plus(query)}"
-        if page > 1:
-            url += f"&o={page}"
-        r = get(session, url)
-        m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', r.text, re.S)
-        if not m:
-            raise RuntimeError("jofogas: page data (__NEXT_DATA__) not found")
-        ad_list = json.loads(m.group(1))["props"]["pageProps"].get("adList") or {}
-        for ad in ad_list.get("ads", []):
-            if (ad.get("type") or {}).get("value") not in (None, "s"):
-                continue  # skip "wanted to buy" ads
-            ts = (ad.get("list_time") or {}).get("value")
-            posted = (
-                datetime.fromtimestamp(int(ts), TZ).strftime("%Y-%m-%d %H:%M")
-                if ts else (ad.get("list_time") or {}).get("label", "")
-            )
-            items.append({
-                "id": f"jof-{ad['list_id']}",
-                "source": "Jófogás",
-                "title": ad.get("subject", "").strip(),
-                "url": ad.get("url", ""),
-                "price": (ad.get("price") or {}).get("label", ""),
-                "on_hold": False,
-                "location": (ad.get("region") or {}).get("label", ""),
-                "posted": posted,
-            })
-        pager = ad_list.get("pager") or {}
-        if page >= int(pager.get("last_page") or 1):
-            break
-        page += 1
-        time.sleep(2)
-    return items
-
-
-SOURCES = [("HardverApró", fetch_hardverapro), ("Jófogás", fetch_jofogas)]
+SOURCES = [("HardverApró", fetch_hardverapro)]
 
 
 # --------------------------------------------------------------------------
@@ -243,7 +197,7 @@ tr.new{{background:var(--new)}} a{{color:var(--accent);text-decoration:none;font
 @media (max-width:640px){{td:nth-child(4),td:nth-child(5){{display:none}}}}
 </style></head><body><main>
 <h1>UniFi access pointok és switchek</h1>
-<div class="sub">Frissítve: {e(updated)} · {len(listings)} hirdetés · HardverApró + Jófogás</div>
+<div class="sub">Frissítve: {e(updated)} · {len(listings)} hirdetés · HardverApró</div>
 {errs}
 <div class="filters">
 <button class="on" data-f="">Mind</button><button data-f="Access point">Access point</button><button data-f="Switch">Switch</button><button data-f="new">Csak új</button>

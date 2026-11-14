@@ -43,7 +43,7 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Search HardverApró + Jófogás
+      - name: Search HardverApró
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
