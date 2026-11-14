@@ -30,7 +30,9 @@ JOFOGAS_QUERIES = ["unifi"]
 # (we cannot tell whether they were sold). Jófogás ads are removed as soon as they disappear.
 HVA_KEEP_DAYS = 21
 # No pushes between these hours (Budapest time); ads found then are sent in the first push after.
-QUIET_FROM, QUIET_UNTIL = 21, 6
+QUIET_FROM, QUIET_UNTIL = 22, 6
+# The first run at or after this hour sends "no new ads today" if no push went out today.
+SUMMARY_FROM = 19
 USER_AGENT = "unifi-watch/1.0 (personal listing alert; +https://github.com)"
 TIMEOUT = 30
 
@@ -58,7 +60,7 @@ EXCLUDE_PATTERNS = [
 def classify(title: str) -> str | None:
     """Return 'Access point', 'Switch' or None (= not interesting)."""
     t = title.lower()
-    if "unifi" not in t and "ubiquiti" not in t and "ubnt" not in t:
+    if not re.search(r"\b(unifi|ubiquiti|ubiquity|ubnt)\b", t):
         return None
     if any(re.search(p, t) for p in EXCLUDE_PATTERNS):
         return None
@@ -92,9 +94,13 @@ def get(session: requests.Session, url: str) -> requests.Response:
 # newest ads of the network-product categories (robots.txt allows these; it only
 # disallows paging with offset=) and filter them for UniFi locally.
 HVA_CATEGORIES = [
-    "https://hardverapro.hu/aprok/hardver/halozati_termekek/index.html",
+    # Narrow subcategories first: their newest-ads page reaches back hours to weeks. The big
+    # categories fill up fast (many ads are bumped at the same time, e.g. 16:00) and are only a safety net.
+    "https://hardverapro.hu/aprok/hardver/halozati_termekek/router_switch_repeater/wifi_repeater_access_point/index.html",
+    "https://hardverapro.hu/aprok/hardver/halozati_termekek/router_switch_repeater/switch_hub/index.html",
     "https://hardverapro.hu/aprok/hardver/halozati_termekek/router_switch_repeater/index.html",
     "https://hardverapro.hu/aprok/hardver/halozati_termekek/szerver_halozati_eszkozok/index.html",
+    "https://hardverapro.hu/aprok/hardver/halozati_termekek/index.html",
 ]
 
 
@@ -289,9 +295,34 @@ def notify(new_items: list[dict], title: str | None = None) -> None:
     print(f"Push sent ({len(new_items)} new)")
 
 
+def summary(listings: list[dict], errors: list[str]) -> None:
+    """Evening 'still alive' push on days without new ads."""
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if not topic or os.environ.get("DAILY_SUMMARY", "").strip().lower() == "false":
+        return
+    server = (os.environ.get("NTFY_SERVER") or "https://ntfy.sh").strip().rstrip("/")
+    page_url = os.environ.get("PAGE_URL", "").strip()
+    aps = sum("Access point" in x["category"] for x in listings)
+    sws = sum("Switch" in x["category"] for x in listings)
+    msg = f"A figyelő működik. A listán: {aps} access point, {sws} switch."
+    if errors:
+        msg += "\nHiba: " + "; ".join(e.split(" for url")[0] for e in errors)
+    payload = {"topic": topic, "title": "Ma nem volt új UniFi hirdetés", "message": msg,
+               "tags": ["zzz"], "priority": 2}
+    if page_url:
+        payload["click"] = page_url
+    headers = {}
+    token = os.environ.get("NTFY_TOKEN", "").strip()
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    requests.post(server, json=payload, headers=headers, timeout=TIMEOUT).raise_for_status()
+    print("Daily summary push sent")
+
+
 # --------------------------------------------------------------------------
 def main() -> int:
     previous = json.loads(DATA.read_text(encoding="utf-8")) if DATA.exists() else {"listings": []}
+    last_push_day = previous.get("last_push_day", "")
     prev_by_id = {x["id"]: x for x in previous.get("listings", [])}
     first_run = not prev_by_id
 
@@ -346,6 +377,7 @@ def main() -> int:
           f"quiet hours: {quiet}, errors: {errors or 'none'}")
     for x in new_items:
         print(f"  NEW {x['source']}: {x['title']} {x['price']} {x['url']}")
+    today = now_dt.strftime("%Y-%m-%d")
     try:
         if os.environ.get("TEST_PUSH") == "true":
             notify(listings or [{"title": "nincs találat", "price": "", "source": "-", "url": "https://ntfy.sh"}],
@@ -353,16 +385,21 @@ def main() -> int:
         elif first_run and listings:
             # First run: nothing is "new" yet; send one push so you can see notifications work.
             notify(listings, title=f"UniFi figyelő elindult – {len(listings)} hirdetés a listán")
+            last_push_day = today
         elif pending and not quiet:
             notify(pending)
             for x in pending:
                 x["notified"] = True
+            last_push_day = today
+        elif not quiet and now_dt.hour >= SUMMARY_FROM and last_push_day != today:
+            summary(listings, errors)
+            last_push_day = today
     except Exception as exc:
         print(f"ERROR push: {exc}", file=sys.stderr)
 
     DATA.parent.mkdir(parents=True, exist_ok=True)
     PAGE.parent.mkdir(parents=True, exist_ok=True)
-    DATA.write_text(json.dumps({"updated": now, "listings": listings}, ensure_ascii=False, indent=1), encoding="utf-8")
+    DATA.write_text(json.dumps({"updated": now, "last_push_day": last_push_day, "listings": listings}, ensure_ascii=False, indent=1), encoding="utf-8")
     write_markdown(listings, now, errors)
     write_html(listings, now, errors)
     return 1 if len(errors) == len(SOURCES) else 0
