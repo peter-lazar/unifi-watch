@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 21:53",
+ "updated": "2026-11-14 22:27",
  "last_push_day": "2026-11-14",
  "listings": [
   {
@@ -12,10 +12,10 @@
    "location": "Kiskunhalas",
    "posted": "ma 16:00",
    "category": "Access point",
-   "last_seen": "2026-11-14 21:53",
+   "last_seen": "2026-11-14 22:27",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "hva-7753918",
@@ -27,10 +27,10 @@
    "location": "Adony, XI. kerület",
    "posted": "2026-10-16",
    "category": "Access point",
-   "last_seen": "2026-11-14 21:53",
+   "last_seen": "2026-11-14 22:27",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "hva-7767831",
@@ -42,7 +42,7 @@
    "location": "Székesfehérvár, Várpalota, Veszprém",
    "posted": "2026-11-10",
    "category": "Access point",
-   "last_seen": "2026-11-14 21:53",
+   "last_seen": "2026-11-14 22:27",
    "first_seen": "2026-11-10 11:35",
    "notified": true,
    "is_new": false
@@ -87,7 +87,7 @@
    "location": "Nyírbátor",
    "posted": "ma 12:00",
    "category": "Access point",
-   "last_seen": "2026-11-14 21:53",
+   "last_seen": "2026-11-14 22:27",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -102,7 +102,7 @@
    "location": "Budapest, Lajosmizse, Nagykőrös",
    "posted": "ma 20:32",
    "category": "Switch",
-   "last_seen": "2026-11-14 21:53",
+   "last_seen": "2026-11-14 22:27",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -117,7 +117,7 @@
    "location": "Ajka, Veszprém",
    "posted": "ma 13:50",
    "category": "Switch",
-   "last_seen": "2026-11-14 21:53",
+   "last_seen": "2026-11-14 22:27",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
@@ -132,7 +132,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-14 21:53",
+   "last_seen": "2026-11-14 22:27",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
