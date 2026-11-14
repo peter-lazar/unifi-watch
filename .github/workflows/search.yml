@@ -2,14 +2,19 @@ name: UniFi search
 
 on:
   schedule:
-    # Times are UTC. Budapest is UTC+1 in winter, UTC+2 in summer.
-    # Target: 07:00, 11:00, 14:00, 17:00, 20:00 Budapest (winter; one hour later in summer).
-    # Set 15 min early because GitHub starts jobs scheduled at the top of the hour 25-50 min late.
-    - cron: "45 5 * * *"    # ~07:00
-    - cron: "45 9 * * *"    # ~11:00
-    - cron: "45 12 * * *"   # ~14:00
-    - cron: "45 15 * * *"   # ~17:00
-    - cron: "45 18 * * *"   # ~20:00
+    # Times are UTC. Budapest is UTC+1 in winter, UTC+2 in summer (runs are then one hour later).
+    # GitHub starts scheduled jobs 40-55 min late, so each is set ~45 min before the target time.
+    # Daytime runs (push notifications):
+    - cron: "15 5 * * *"    # ~07:00 Budapest
+    - cron: "15 9 * * *"    # ~11:00
+    - cron: "15 12 * * *"   # ~14:00
+    - cron: "15 15 * * *"   # ~17:00
+    - cron: "15 18 * * *"   # ~20:00
+    # Quiet overnight runs: HardverApró's newest-ads page covers only a few hours, so these
+    # record overnight ads without a push; they are sent in the morning push.
+    - cron: "15 21 * * *"   # ~22:00
+    - cron: "15 0 * * *"    # ~01:00
+    - cron: "15 3 * * *"    # ~04:00
   workflow_dispatch:   # "Run workflow" button for a manual search
     inputs:
       test_push:

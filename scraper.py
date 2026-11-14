@@ -29,6 +29,8 @@ JOFOGAS_QUERIES = ["unifi"]
 # Ads that drop out of HardverApró's newest-100 category window are kept this long
 # (we cannot tell whether they were sold). Jófogás ads are removed as soon as they disappear.
 HVA_KEEP_DAYS = 21
+# No pushes between these hours (Budapest time); ads found then are sent in the first push after.
+QUIET_FROM, QUIET_UNTIL = 21, 6
 USER_AGENT = "unifi-watch/1.0 (personal listing alert; +https://github.com)"
 TIMEOUT = 30
 
@@ -329,20 +331,19 @@ def main() -> int:
     for item in found.values():
         old = prev_by_id.get(item["id"])
         item["first_seen"] = old["first_seen"] if old else now
-        item["is_new"] = old is None and not first_run
-        if item["is_new"]:
+        # "notified" = a push has been sent for this ad. Ads found during quiet hours wait for the morning push.
+        item["notified"] = old.get("notified", True) if old else first_run
+        item["is_new"] = (old is None and not first_run) or not item["notified"]
+        if old is None and not first_run:
             new_items.append(item)
 
     # newest first: by first-seen time, then by posting order on the site
     listings = sorted(found.values(), key=lambda x: x["first_seen"], reverse=True)
+    pending = [x for x in listings if not x["notified"]]
+    quiet = now_dt.hour >= QUIET_FROM or now_dt.hour < QUIET_UNTIL
 
-    DATA.parent.mkdir(parents=True, exist_ok=True)
-    PAGE.parent.mkdir(parents=True, exist_ok=True)
-    DATA.write_text(json.dumps({"updated": now, "listings": listings}, ensure_ascii=False, indent=1), encoding="utf-8")
-    write_markdown(listings, now, errors)
-    write_html(listings, now, errors)
-
-    print(f"{len(listings)} listings, {len(new_items)} new, errors: {errors or 'none'}")
+    print(f"{len(listings)} listings, {len(new_items)} new, {len(pending)} waiting for push, "
+          f"quiet hours: {quiet}, errors: {errors or 'none'}")
     for x in new_items:
         print(f"  NEW {x['source']}: {x['title']} {x['price']} {x['url']}")
     try:
@@ -352,10 +353,18 @@ def main() -> int:
         elif first_run and listings:
             # First run: nothing is "new" yet; send one push so you can see notifications work.
             notify(listings, title=f"UniFi figyelő elindult – {len(listings)} hirdetés a listán")
-        else:
-            notify(new_items)
+        elif pending and not quiet:
+            notify(pending)
+            for x in pending:
+                x["notified"] = True
     except Exception as exc:
         print(f"ERROR push: {exc}", file=sys.stderr)
+
+    DATA.parent.mkdir(parents=True, exist_ok=True)
+    PAGE.parent.mkdir(parents=True, exist_ok=True)
+    DATA.write_text(json.dumps({"updated": now, "listings": listings}, ensure_ascii=False, indent=1), encoding="utf-8")
+    write_markdown(listings, now, errors)
+    write_html(listings, now, errors)
     return 1 if len(errors) == len(SOURCES) else 0
 
 

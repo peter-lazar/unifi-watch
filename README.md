@@ -7,7 +7,9 @@ notification to your phone** when a new ad shows up.
 - 📋 List: [`LISTINGS.md`](LISTINGS.md), or the web page in `docs/` (GitHub Pages)
 - 🔔 Push: [ntfy](https://ntfy.sh) (free app for Android / iOS, no account needed)
 - ⏰ Schedule: about 07:00, 11:00, 14:00, 17:00 and 20:00 Budapest time (one hour later in summer), via GitHub Actions.
-  GitHub starts scheduled jobs late at busy times, so the jobs are set 15 minutes early; expect them within roughly ±15 minutes.
+  GitHub starts scheduled jobs 40–55 minutes late, so the jobs are set about 45 minutes early; expect them within roughly ±15 minutes.
+  Three quiet runs overnight (~22:00, 01:00, 04:00) catch ads posted at night; no push is sent between 21:00 and 06:00,
+  those ads arrive in the morning push.
 
 ## Setup (5 minutes)
 
