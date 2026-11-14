@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 07:32",
+ "updated": "2026-11-14 11:23",
  "listings": [
   {
    "id": "hva-7767831",
@@ -44,6 +44,20 @@
    "is_new": false
   },
   {
+   "id": "hva-7774228",
+   "source": "HardverApró",
+   "title": "Unifi US-48 switch",
+   "url": "https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html",
+   "price": "71 990 Ft",
+   "on_hold": false,
+   "location": "Budapest, Lajosmizse, Nagykőrös",
+   "posted": "ma 09:48",
+   "category": "Switch",
+   "last_seen": "2026-11-14 11:23",
+   "first_seen": "2026-11-09 00:42",
+   "is_new": false
+  },
+  {
    "id": "hva-7743247",
    "source": "HardverApró",
    "title": "Új Original dobozos Ubiquiti UniFi UAP-AC-LR",
@@ -58,17 +72,17 @@
    "is_new": false
   },
   {
-   "id": "hva-7774228",
+   "id": "hva-7785819",
    "source": "HardverApró",
-   "title": "Unifi US-48 switch",
-   "url": "https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html",
-   "price": "71 990 Ft",
-   "on_hold": false,
-   "location": "Budapest, Lajosmizse, Nagykőrös",
-   "posted": "ma 10:26",
+   "title": "Ubiquiti UniFi csomag - US-16-150W, US-48, Cloud Key Gen2 Plus 2TB + rack - egyben, 140000Ft+ÁFA",
+   "url": "https://hardverapro.hu/apro/ubiquiti_unifi_csomag_us-16-150w_us-48_cloud_key_g/friss.html",
+   "price": "177 780 Ft",
+   "on_hold": true,
+   "location": "VIII. kerület",
+   "posted": "2026-11-06",
    "category": "Switch",
-   "last_seen": "2026-11-13 14:52",
-   "first_seen": "2026-11-09 00:42",
+   "last_seen": "2026-11-14 11:23",
+   "first_seen": "2026-11-06 22:37",
    "is_new": false
   },
   {
@@ -80,20 +94,6 @@
    "on_hold": false,
    "location": "Ajka, Veszprém",
    "posted": "tegnap 20:48",
-   "category": "Switch",
-   "last_seen": "2026-11-14 07:32",
-   "first_seen": "2026-11-06 22:37",
-   "is_new": false
-  },
-  {
-   "id": "hva-7785819",
-   "source": "HardverApró",
-   "title": "Ubiquiti UniFi csomag - US-16-150W, US-48, Cloud Key Gen2 Plus 2TB + rack - egyben, 140000Ft+ÁFA",
-   "url": "https://hardverapro.hu/apro/ubiquiti_unifi_csomag_us-16-150w_us-48_cloud_key_g/friss.html",
-   "price": "177 780 Ft",
-   "on_hold": true,
-   "location": "VIII. kerület",
-   "posted": "2026-11-06",
    "category": "Switch",
    "last_seen": "2026-11-14 07:32",
    "first_seen": "2026-11-06 22:37",
