@@ -1,16 +1,16 @@
 # UniFi access points & switches
 
-Last update: **2026-11-15 14:04** (Budapest time) · 10 listings · 🆕 = new in the last run
+Last update: **2026-11-15 16:45** (Budapest time) · 10 listings · 🆕 = new in the last run
 
 ## Access point (6)
 
 | | Item | Price | Location | Site | Posted |
 |---|---|---|---|---|---|
-|  | [Unifi Ubiquiti U6 LR](https://hardverapro.hu/apro/unifi_ubiquiti_lr_6/friss.html) | 40 000 Ft | Kiskunhalas | HardverApró | ma 08:00 |
+|  | [Unifi Ubiquiti U6 LR](https://hardverapro.hu/apro/unifi_ubiquiti_lr_6/friss.html) | 40 000 Ft | Kiskunhalas | HardverApró | ma 16:00 |
 |  | [Eladó bontatlan Unifi U6 Mesh](https://hardverapro.hu/apro/elado_bontatlan_unifi_u6_mesh/friss.html) | 50 000 Ft | Adony, XI. kerület | HardverApró | 2026-10-16 |
-|  | [Ubiquiti UniFi Express 6 (UX) - Wi-Fi 6 Cloud Gateway / AP](https://hardverapro.hu/apro/ubiquiti_unifi_express_6_ux_wi-fi_6_cloud_gateway/friss.html) | 40 000 Ft | Székesfehérvár, Várpalota, Veszprém | HardverApró | 2026-11-10 |
+|  | [Ubiquiti UniFi Express 6 (UX) - Wi-Fi 6 Cloud Gateway / AP](https://hardverapro.hu/apro/ubiquiti_unifi_express_6_ux_wi-fi_6_cloud_gateway/friss.html) | 40 000 Ft | Székesfehérvár, Várpalota, Veszprém | HardverApró | ma 16:14 |
 |  | [Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point + ajándék PoE adapter](https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point_ajandek/friss.html) | 38 000 Ft | Szeged | HardverApró | ma 20:02 |
-|  | [Új Original dobozos Ubiquiti UniFi UAP-AC-LR](https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html) | 29 000 Ft | Nyírbátor | HardverApró | ma 12:01 |
+|  | [Új Original dobozos Ubiquiti UniFi UAP-AC-LR](https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html) | 29 000 Ft | Nyírbátor | HardverApró | ma 16:17 |
 |  | [Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point](https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point/friss.html) | 50 000 Ft | Szeged | HardverApró | ma 11:06 |
 
 ## Switch (4)
