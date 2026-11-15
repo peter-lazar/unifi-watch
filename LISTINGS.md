@@ -1,12 +1,12 @@
 # UniFi access points & switches
 
-Last update: **2026-11-15 07:02** (Budapest time) · 10 listings · 🆕 = new in the last run
+Last update: **2026-11-15 10:53** (Budapest time) · 10 listings · 🆕 = new in the last run
 
 ## Access point (6)
 
 | | Item | Price | Location | Site | Posted |
 |---|---|---|---|---|---|
-|  | [Unifi Ubiquiti U6 LR](https://hardverapro.hu/apro/unifi_ubiquiti_lr_6/friss.html) | 40 000 Ft | Kiskunhalas | HardverApró | tegnap 16:00 |
+|  | [Unifi Ubiquiti U6 LR](https://hardverapro.hu/apro/unifi_ubiquiti_lr_6/friss.html) | 40 000 Ft | Kiskunhalas | HardverApró | ma 08:00 |
 |  | [Eladó bontatlan Unifi U6 Mesh](https://hardverapro.hu/apro/elado_bontatlan_unifi_u6_mesh/friss.html) | 50 000 Ft | Adony, XI. kerület | HardverApró | 2026-10-16 |
 |  | [Ubiquiti UniFi Express 6 (UX) - Wi-Fi 6 Cloud Gateway / AP](https://hardverapro.hu/apro/ubiquiti_unifi_express_6_ux_wi-fi_6_cloud_gateway/friss.html) | 40 000 Ft | Székesfehérvár, Várpalota, Veszprém | HardverApró | 2026-11-10 |
 |  | [Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point + ajándék PoE adapter](https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point_ajandek/friss.html) | 38 000 Ft | Szeged | HardverApró | ma 20:02 |
@@ -19,5 +19,5 @@ Last update: **2026-11-15 07:02** (Budapest time) · 10 listings · 🆕 = new i
 |---|---|---|---|---|---|
 |  | [Új, Bontatlan Ubiquiti UniFi USW-Industrial Switch (430W PoE++, 2 év garancia)](https://hardverapro.hu/apro/uj_bontatlan_ubiquiti_unifi_usw-industrial_switch/friss.html) | 199 990 Ft | IX. kerület, XXI. kerület | HardverApró | ma 08:00 |
 |  | [Unifi US-48 switch](https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html) | 71 990 Ft | Budapest, Lajosmizse, Nagykőrös | HardverApró | tegnap 20:32 |
-|  | [Ubiquiti UniFi csomag - US-16-150W, US-48, Cloud Key Gen2 Plus 2TB + rack - egyben, 140000Ft+ÁFA](https://hardverapro.hu/apro/ubiquiti_unifi_csomag_us-16-150w_us-48_cloud_key_g/friss.html) | 177 780 Ft (on hold) | VIII. kerület | HardverApró | 2026-11-06 |
+|  | [Ubiquiti UniFi csomag - US-48, Cloud Key Gen2 Plus 2TB + rack - egyben, 100000Ft+ÁFA](https://hardverapro.hu/apro/ubiquiti_unifi_csomag_us-16-150w_us-48_cloud_key_g/friss.html) | 127 000 Ft | VIII. kerület | HardverApró | ma 09:46 |
 |  | [Ubiquiti / Unifi USW-Enterprise-8-PoE switch](https://hardverapro.hu/apro/ubiquiti_unifi_usw-enterprise-8-poe_switch/friss.html) | 110 000 Ft | Ajka, Veszprém | HardverApró | ma 13:50 |
