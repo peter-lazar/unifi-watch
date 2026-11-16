@@ -1,7 +1,22 @@
 {
- "updated": "2026-11-16 07:37",
+ "updated": "2026-11-16 11:43",
  "last_push_day": "2026-11-16",
  "listings": [
+  {
+   "id": "hva-7776184",
+   "source": "HardverApró",
+   "title": "Ubiquiti AmpliFi Alien Wi-Fi 6 Mesh Router AFI-ALN-R 4 Gigabit LAN",
+   "url": "https://hardverapro.hu/apro/ubiquiti_amplifi_alien_wi-fi_6_mesh_router_afi-aln/friss.html",
+   "price": "40 000 Ft",
+   "on_hold": false,
+   "location": "Budapest, XXII. kerület",
+   "posted": "ma 09:30",
+   "category": "Access point",
+   "last_seen": "2026-11-16 11:43",
+   "first_seen": "2026-11-16 11:43",
+   "notified": true,
+   "is_new": true
+  },
   {
    "id": "hva-7801336",
    "source": "HardverApró",
@@ -12,10 +27,10 @@
    "location": "XXI. kerület",
    "posted": "ma 07:30",
    "category": "Access point",
-   "last_seen": "2026-11-16 07:37",
+   "last_seen": "2026-11-16 11:43",
    "first_seen": "2026-11-16 07:37",
    "notified": true,
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "hva-7368641",
@@ -25,9 +40,9 @@
    "price": "40 000 Ft",
    "on_hold": false,
    "location": "Kiskunhalas",
-   "posted": "tegnap 16:00",
+   "posted": "ma 08:00",
    "category": "Access point",
-   "last_seen": "2026-11-16 07:37",
+   "last_seen": "2026-11-16 11:43",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -57,7 +72,7 @@
    "location": "Székesfehérvár, Várpalota, Veszprém",
    "posted": "tegnap 16:14",
    "category": "Access point",
-   "last_seen": "2026-11-16 07:37",
+   "last_seen": "2026-11-16 11:43",
    "first_seen": "2026-11-10 11:35",
    "notified": true,
    "is_new": false
@@ -100,9 +115,9 @@
    "price": "29 000 Ft",
    "on_hold": false,
    "location": "Nyírbátor",
-   "posted": "tegnap 16:17",
+   "posted": "ma 08:12",
    "category": "Access point",
-   "last_seen": "2026-11-16 07:37",
+   "last_seen": "2026-11-16 11:43",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -132,7 +147,7 @@
    "location": "VIII. kerület",
    "posted": "tegnap 09:46",
    "category": "Switch",
-   "last_seen": "2026-11-16 07:37",
+   "last_seen": "2026-11-16 11:43",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
