@@ -1,7 +1,22 @@
 {
- "updated": "2026-11-16 05:20",
- "last_push_day": "2026-11-15",
+ "updated": "2026-11-16 07:37",
+ "last_push_day": "2026-11-16",
  "listings": [
+  {
+   "id": "hva-7801336",
+   "source": "HardverApró",
+   "title": "Ubiquiti UniFi U6 Mesh Wi-Fi 6 Access Point + PoE injektor",
+   "url": "https://hardverapro.hu/apro/ubiquiti_unifi_u6_mesh_wi-fi_6_access_point_poe_in/friss.html",
+   "price": "48 000 Ft",
+   "on_hold": false,
+   "location": "XXI. kerület",
+   "posted": "ma 07:30",
+   "category": "Access point",
+   "last_seen": "2026-11-16 07:37",
+   "first_seen": "2026-11-16 07:37",
+   "notified": true,
+   "is_new": true
+  },
   {
    "id": "hva-7368641",
    "source": "HardverApró",
@@ -12,7 +27,7 @@
    "location": "Kiskunhalas",
    "posted": "tegnap 16:00",
    "category": "Access point",
-   "last_seen": "2026-11-16 05:20",
+   "last_seen": "2026-11-16 07:37",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -42,7 +57,7 @@
    "location": "Székesfehérvár, Várpalota, Veszprém",
    "posted": "tegnap 16:14",
    "category": "Access point",
-   "last_seen": "2026-11-16 05:20",
+   "last_seen": "2026-11-16 07:37",
    "first_seen": "2026-11-10 11:35",
    "notified": true,
    "is_new": false
@@ -87,7 +102,7 @@
    "location": "Nyírbátor",
    "posted": "tegnap 16:17",
    "category": "Access point",
-   "last_seen": "2026-11-16 05:20",
+   "last_seen": "2026-11-16 07:37",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -102,7 +117,7 @@
    "location": "Budapest, Lajosmizse, Nagykőrös",
    "posted": "tegnap 20:28",
    "category": "Switch",
-   "last_seen": "2026-11-16 05:20",
+   "last_seen": "2026-11-16 07:37",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -117,7 +132,7 @@
    "location": "VIII. kerület",
    "posted": "tegnap 09:46",
    "category": "Switch",
-   "last_seen": "2026-11-16 05:20",
+   "last_seen": "2026-11-16 07:37",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false

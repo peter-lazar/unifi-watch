@@ -1,11 +1,12 @@
 # UniFi access points & switches
 
-Last update: **2026-11-16 05:20** (Budapest time) · 10 listings · 🆕 = new in the last run
+Last update: **2026-11-16 07:37** (Budapest time) · 11 listings · 🆕 = new in the last run
 
-## Access point (6)
+## Access point (7)
 
 | | Item | Price | Location | Site | Posted |
 |---|---|---|---|---|---|
+| 🆕 | [Ubiquiti UniFi U6 Mesh Wi-Fi 6 Access Point + PoE injektor](https://hardverapro.hu/apro/ubiquiti_unifi_u6_mesh_wi-fi_6_access_point_poe_in/friss.html) | 48 000 Ft | XXI. kerület | HardverApró | ma 07:30 |
 |  | [Unifi Ubiquiti U6 LR](https://hardverapro.hu/apro/unifi_ubiquiti_lr_6/friss.html) | 40 000 Ft | Kiskunhalas | HardverApró | tegnap 16:00 |
 |  | [Eladó bontatlan Unifi U6 Mesh](https://hardverapro.hu/apro/elado_bontatlan_unifi_u6_mesh/friss.html) | 50 000 Ft | Adony, XI. kerület | HardverApró | 2026-10-16 |
 |  | [Ubiquiti UniFi Express 6 (UX) - Wi-Fi 6 Cloud Gateway / AP](https://hardverapro.hu/apro/ubiquiti_unifi_express_6_ux_wi-fi_6_cloud_gateway/friss.html) | 40 000 Ft | Székesfehérvár, Várpalota, Veszprém | HardverApró | tegnap 16:14 |
