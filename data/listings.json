@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 17:44",
+ "updated": "2026-11-16 20:13",
  "last_push_day": "2026-11-16",
  "listings": [
   {
@@ -27,7 +27,7 @@
    "location": "XXI. kerület",
    "posted": "ma 07:30",
    "category": "Access point",
-   "last_seen": "2026-11-16 17:44",
+   "last_seen": "2026-11-16 20:13",
    "first_seen": "2026-11-16 07:37",
    "notified": true,
    "is_new": false
@@ -42,7 +42,7 @@
    "location": "Kiskunhalas",
    "posted": "ma 16:00",
    "category": "Access point",
-   "last_seen": "2026-11-16 17:44",
+   "last_seen": "2026-11-16 20:13",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -72,7 +72,7 @@
    "location": "Székesfehérvár, Várpalota, Veszprém",
    "posted": "tegnap 16:14",
    "category": "Access point",
-   "last_seen": "2026-11-16 17:44",
+   "last_seen": "2026-11-16 20:13",
    "first_seen": "2026-11-10 11:35",
    "notified": true,
    "is_new": false
@@ -117,7 +117,7 @@
    "location": "Nyírbátor",
    "posted": "ma 14:22",
    "category": "Access point",
-   "last_seen": "2026-11-16 17:44",
+   "last_seen": "2026-11-16 20:13",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -147,7 +147,7 @@
    "location": "Ajka, Veszprém",
    "posted": "ma 13:07",
    "category": "Switch",
-   "last_seen": "2026-11-16 17:44",
+   "last_seen": "2026-11-16 20:13",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
@@ -162,7 +162,7 @@
    "location": "VIII. kerület",
    "posted": "tegnap 09:46",
    "category": "Switch",
-   "last_seen": "2026-11-16 17:44",
+   "last_seen": "2026-11-16 20:13",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
