@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 02:27",
+ "updated": "2026-11-16 05:20",
  "last_push_day": "2026-11-15",
  "listings": [
   {
@@ -12,7 +12,7 @@
    "location": "Kiskunhalas",
    "posted": "tegnap 16:00",
    "category": "Access point",
-   "last_seen": "2026-11-16 02:27",
+   "last_seen": "2026-11-16 05:20",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -42,7 +42,7 @@
    "location": "Székesfehérvár, Várpalota, Veszprém",
    "posted": "tegnap 16:14",
    "category": "Access point",
-   "last_seen": "2026-11-16 02:27",
+   "last_seen": "2026-11-16 05:20",
    "first_seen": "2026-11-10 11:35",
    "notified": true,
    "is_new": false
@@ -87,7 +87,7 @@
    "location": "Nyírbátor",
    "posted": "tegnap 16:17",
    "category": "Access point",
-   "last_seen": "2026-11-16 02:27",
+   "last_seen": "2026-11-16 05:20",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -102,7 +102,7 @@
    "location": "Budapest, Lajosmizse, Nagykőrös",
    "posted": "tegnap 20:28",
    "category": "Switch",
-   "last_seen": "2026-11-16 02:27",
+   "last_seen": "2026-11-16 05:20",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -117,7 +117,7 @@
    "location": "VIII. kerület",
    "posted": "tegnap 09:46",
    "category": "Switch",
-   "last_seen": "2026-11-16 02:27",
+   "last_seen": "2026-11-16 05:20",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
