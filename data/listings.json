@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 23:00",
+ "updated": "2026-11-17 02:12",
  "last_push_day": "2026-11-16",
  "listings": [
   {
@@ -25,9 +25,9 @@
    "price": "48 000 Ft",
    "on_hold": false,
    "location": "XXI. kerület",
-   "posted": "ma 07:30",
+   "posted": "tegnap 07:30",
    "category": "Access point",
-   "last_seen": "2026-11-16 23:00",
+   "last_seen": "2026-11-17 02:12",
    "first_seen": "2026-11-16 07:37",
    "notified": true,
    "is_new": false
@@ -40,9 +40,9 @@
    "price": "40 000 Ft",
    "on_hold": false,
    "location": "Kiskunhalas",
-   "posted": "ma 16:00",
+   "posted": "tegnap 16:00",
    "category": "Access point",
-   "last_seen": "2026-11-16 23:00",
+   "last_seen": "2026-11-17 02:12",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -70,9 +70,9 @@
    "price": "40 000 Ft",
    "on_hold": false,
    "location": "Székesfehérvár, Várpalota, Veszprém",
-   "posted": "tegnap 16:14",
+   "posted": "2026-11-15",
    "category": "Access point",
-   "last_seen": "2026-11-16 23:00",
+   "last_seen": "2026-11-17 02:12",
    "first_seen": "2026-11-10 11:35",
    "notified": true,
    "is_new": false
@@ -115,9 +115,9 @@
    "price": "29 000 Ft",
    "on_hold": false,
    "location": "Nyírbátor",
-   "posted": "ma 14:22",
+   "posted": "tegnap 14:22",
    "category": "Access point",
-   "last_seen": "2026-11-16 23:00",
+   "last_seen": "2026-11-17 02:12",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -130,9 +130,9 @@
    "price": "71 990 Ft",
    "on_hold": false,
    "location": "Budapest, Lajosmizse, Nagykőrös",
-   "posted": "tegnap 20:28",
+   "posted": "tegnap 23:12",
    "category": "Switch",
-   "last_seen": "2026-11-16 07:37",
+   "last_seen": "2026-11-17 02:12",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -145,9 +145,9 @@
    "price": "127 000 Ft",
    "on_hold": false,
    "location": "VIII. kerület",
-   "posted": "tegnap 09:46",
+   "posted": "2026-11-15",
    "category": "Switch",
-   "last_seen": "2026-11-16 23:00",
+   "last_seen": "2026-11-17 02:12",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
