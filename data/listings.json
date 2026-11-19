@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18 23:03",
+ "updated": "2026-11-19 02:15",
  "last_push_day": "2026-11-18",
  "listings": [
   {
@@ -25,9 +25,9 @@
    "price": "48 000 Ft",
    "on_hold": false,
    "location": "XXI. kerület",
-   "posted": "tegnap 08:04",
+   "posted": "2026-11-17",
    "category": "Access point",
-   "last_seen": "2026-11-18 23:03",
+   "last_seen": "2026-11-19 02:15",
    "first_seen": "2026-11-16 07:37",
    "notified": true,
    "is_new": false
@@ -40,9 +40,9 @@
    "price": "40 000 Ft",
    "on_hold": false,
    "location": "Kiskunhalas",
-   "posted": "ma 16:00",
+   "posted": "tegnap 16:00",
    "category": "Access point",
-   "last_seen": "2026-11-18 23:03",
+   "last_seen": "2026-11-19 02:15",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -72,7 +72,7 @@
    "location": "Székesfehérvár, Várpalota, Veszprém",
    "posted": "2026-11-15",
    "category": "Access point",
-   "last_seen": "2026-11-18 23:03",
+   "last_seen": "2026-11-19 02:15",
    "first_seen": "2026-11-10 11:35",
    "notified": true,
    "is_new": false
@@ -115,9 +115,9 @@
    "price": "29 000 Ft",
    "on_hold": false,
    "location": "Nyírbátor",
-   "posted": "ma 12:00",
+   "posted": "tegnap 12:00",
    "category": "Access point",
-   "last_seen": "2026-11-18 23:03",
+   "last_seen": "2026-11-19 02:15",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -130,9 +130,9 @@
    "price": "71 990 Ft",
    "on_hold": false,
    "location": "Budapest, Lajosmizse, Nagykőrös",
-   "posted": "ma 20:41",
+   "posted": "tegnap 20:41",
    "category": "Switch",
-   "last_seen": "2026-11-18 23:03",
+   "last_seen": "2026-11-19 02:15",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -147,7 +147,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-15",
    "category": "Switch",
-   "last_seen": "2026-11-18 23:03",
+   "last_seen": "2026-11-19 02:15",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
