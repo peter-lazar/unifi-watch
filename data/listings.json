@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 14:25",
+ "updated": "2026-11-20 17:00",
  "last_push_day": "2026-11-19",
  "listings": [
   {
@@ -42,7 +42,7 @@
    "location": "XXI. kerület",
    "posted": "2026-11-17",
    "category": "Access point",
-   "last_seen": "2026-11-20 14:25",
+   "last_seen": "2026-11-20 17:00",
    "first_seen": "2026-11-16 07:37",
    "notified": true,
    "is_new": false
@@ -55,9 +55,9 @@
    "price": "40 000 Ft",
    "on_hold": false,
    "location": "Kiskunhalas",
-   "posted": "ma 08:00",
+   "posted": "ma 16:00",
    "category": "Access point",
-   "last_seen": "2026-11-20 14:25",
+   "last_seen": "2026-11-20 17:00",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -87,7 +87,7 @@
    "location": "Székesfehérvár, Várpalota, Veszprém",
    "posted": "2026-11-15",
    "category": "Access point",
-   "last_seen": "2026-11-20 14:25",
+   "last_seen": "2026-11-20 17:00",
    "first_seen": "2026-11-10 11:35",
    "notified": true,
    "is_new": false
@@ -132,7 +132,7 @@
    "location": "Nyírbátor",
    "posted": "ma 12:00",
    "category": "Access point",
-   "last_seen": "2026-11-20 14:25",
+   "last_seen": "2026-11-20 17:00",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -162,7 +162,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-15",
    "category": "Switch",
-   "last_seen": "2026-11-20 14:25",
+   "last_seen": "2026-11-20 17:00",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
