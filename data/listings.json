@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 23:02",
+ "updated": "2026-11-21 02:12",
  "last_push_day": "2026-11-20",
  "listings": [
   {
@@ -42,7 +42,7 @@
    "location": "XXI. kerület",
    "posted": "2026-11-17",
    "category": "Access point",
-   "last_seen": "2026-11-20 23:02",
+   "last_seen": "2026-11-21 02:12",
    "first_seen": "2026-11-16 07:37",
    "notified": true,
    "is_new": false
@@ -55,9 +55,9 @@
    "price": "40 000 Ft",
    "on_hold": false,
    "location": "Kiskunhalas",
-   "posted": "ma 16:00",
+   "posted": "tegnap 16:00",
    "category": "Access point",
-   "last_seen": "2026-11-20 23:02",
+   "last_seen": "2026-11-21 02:12",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -130,9 +130,9 @@
    "price": "29 000 Ft",
    "on_hold": false,
    "location": "Nyírbátor",
-   "posted": "ma 12:00",
+   "posted": "tegnap 12:00",
    "category": "Access point",
-   "last_seen": "2026-11-20 23:02",
+   "last_seen": "2026-11-21 02:12",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -145,9 +145,9 @@
    "price": "69 990 Ft",
    "on_hold": false,
    "location": "Budapest, Lajosmizse, Nagykőrös",
-   "posted": "ma 22:12",
+   "posted": "ma 01:14",
    "category": "Switch",
-   "last_seen": "2026-11-20 23:02",
+   "last_seen": "2026-11-21 02:12",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -162,7 +162,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-15",
    "category": "Switch",
-   "last_seen": "2026-11-20 23:02",
+   "last_seen": "2026-11-21 02:12",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
