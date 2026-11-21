@@ -1,7 +1,22 @@
 {
- "updated": "2026-11-21 16:51",
- "last_push_day": "2026-11-20",
+ "updated": "2026-11-21 20:03",
+ "last_push_day": "2026-11-21",
  "listings": [
+  {
+   "id": "hva-7810550",
+   "source": "HardverApró",
+   "title": "UniFi AC Mesh (UAP-AC-M) új, bontatlan",
+   "url": "https://hardverapro.hu/apro/unifi_ac_mesh_uap-ac-m_uj_bontatlan/friss.html",
+   "price": "30 000 Ft",
+   "on_hold": false,
+   "location": "Kecskemét",
+   "posted": "ma 17:38",
+   "category": "Access point",
+   "last_seen": "2026-11-21 20:03",
+   "first_seen": "2026-11-21 20:03",
+   "notified": true,
+   "is_new": true
+  },
   {
    "id": "hva-7806884",
    "source": "HardverApró",
@@ -42,7 +57,7 @@
    "location": "XXI. kerület",
    "posted": "2026-11-17",
    "category": "Access point",
-   "last_seen": "2026-11-21 16:51",
+   "last_seen": "2026-11-21 20:03",
    "first_seen": "2026-11-16 07:37",
    "notified": true,
    "is_new": false
@@ -57,7 +72,7 @@
    "location": "Kiskunhalas",
    "posted": "ma 16:00",
    "category": "Access point",
-   "last_seen": "2026-11-21 16:51",
+   "last_seen": "2026-11-21 20:03",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -132,7 +147,7 @@
    "location": "Nyírbátor",
    "posted": "ma 12:00",
    "category": "Access point",
-   "last_seen": "2026-11-21 16:51",
+   "last_seen": "2026-11-21 20:03",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -147,7 +162,7 @@
    "location": "Budapest, Lajosmizse, Nagykőrös",
    "posted": "ma 11:16",
    "category": "Switch",
-   "last_seen": "2026-11-21 16:51",
+   "last_seen": "2026-11-21 20:03",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -162,7 +177,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-15",
    "category": "Switch",
-   "last_seen": "2026-11-21 16:51",
+   "last_seen": "2026-11-21 20:03",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
