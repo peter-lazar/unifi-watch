@@ -1,6 +1,6 @@
 # UniFi access points & switches
 
-Last update: **2026-11-22 10:53** (Budapest time) · 14 listings · 🆕 = new in the last run
+Last update: **2026-11-22 14:07** (Budapest time) · 15 listings · 🆕 = new in the last run
 
 ## Access point (9)
 
@@ -13,13 +13,14 @@ Last update: **2026-11-22 10:53** (Budapest time) · 14 listings · 🆕 = new i
 |  | [Eladó bontatlan Unifi U6 Mesh](https://hardverapro.hu/apro/elado_bontatlan_unifi_u6_mesh/friss.html) | 50 000 Ft | Adony, XI. kerület | HardverApró | 2026-10-16 |
 |  | [Ubiquiti UniFi Express 6 (UX) - Wi-Fi 6 Cloud Gateway / AP](https://hardverapro.hu/apro/ubiquiti_unifi_express_6_ux_wi-fi_6_cloud_gateway/friss.html) | 40 000 Ft | Székesfehérvár, Várpalota, Veszprém | HardverApró | 2026-11-15 |
 |  | [Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point + ajándék PoE adapter](https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point_ajandek/friss.html) | 38 000 Ft | Szeged | HardverApró | ma 20:02 |
-|  | [Új Original dobozos Ubiquiti UniFi UAP-AC-LR](https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html) | 29 000 Ft (on hold) | Nyírbátor | HardverApró | tegnap 12:00 |
+|  | [Új Original dobozos Ubiquiti UniFi UAP-AC-LR](https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_uap-ac-lr/friss.html) | 29 000 Ft (on hold) | Nyírbátor | HardverApró | ma 12:00 |
 |  | [Ubiquiti UniFi U6 Pro Wi-Fi 6 Access Point](https://hardverapro.hu/apro/ubiquiti_unifi_u6_pro_wi-fi_6_access_point/friss.html) | 50 000 Ft | Szeged | HardverApró | ma 11:06 |
 
-## Switch (5)
+## Switch (6)
 
 | | Item | Price | Location | Site | Posted |
 |---|---|---|---|---|---|
+| 🆕 | [UniFi Switch Pro 24 (USW-Pro-24, Gen2)](https://hardverapro.hu/apro/unifi_switch_pro_24_usw-pro-24_gen2_2/friss.html) | 99 000 Ft | VIII. kerület, XI. kerület | HardverApró | ma 13:28 |
 |  | [Ubiquiti Networks ES-24-500W 24 Port PoE Switch](https://hardverapro.hu/apro/ubiquiti_networks_es-24-500w_24_port_poe_switch/friss.html) | 35 000 Ft | XXI. kerület | HardverApró | tegnap 14:34 |
 |  | [Új, Bontatlan Ubiquiti UniFi USW-Industrial Switch (430W PoE++, 2 év garancia)](https://hardverapro.hu/apro/uj_bontatlan_ubiquiti_unifi_usw-industrial_switch/friss.html) | 199 990 Ft | IX. kerület, XXI. kerület | HardverApró | ma 08:00 |
 |  | [Unifi US-48 switch](https://hardverapro.hu/apro/unifi_us-48_switch_hibatlan_tesztelve/friss.html) | 69 990 Ft | Budapest, Lajosmizse, Nagykőrös | HardverApró | ma 08:51 |
