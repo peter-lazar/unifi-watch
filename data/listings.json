@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 11:20",
+ "updated": "2026-11-23 14:32",
  "last_push_day": "2026-11-22",
  "listings": [
   {
@@ -12,7 +12,7 @@
    "location": "I. kerület, XVI. kerület, Pécel",
    "posted": "tegnap 16:41",
    "category": "Access point",
-   "last_seen": "2026-11-23 11:20",
+   "last_seen": "2026-11-23 14:32",
    "first_seen": "2026-11-22 16:51",
    "notified": true,
    "is_new": false
@@ -27,7 +27,7 @@
    "location": "I. kerület, XVI. kerület, Pécel",
    "posted": "tegnap 16:35",
    "category": "Access point",
-   "last_seen": "2026-11-23 11:20",
+   "last_seen": "2026-11-23 14:32",
    "first_seen": "2026-11-22 16:51",
    "notified": true,
    "is_new": false
@@ -57,7 +57,7 @@
    "location": "Kecskemét",
    "posted": "tegnap 20:42",
    "category": "Access point",
-   "last_seen": "2026-11-23 11:20",
+   "last_seen": "2026-11-23 14:32",
    "first_seen": "2026-11-21 20:03",
    "notified": true,
    "is_new": false
@@ -97,12 +97,12 @@
    "source": "HardverApró",
    "title": "Ubiquiti UniFi U6 Mesh Wi-Fi 6 Access Point + PoE injektor",
    "url": "https://hardverapro.hu/apro/ubiquiti_unifi_u6_mesh_wi-fi_6_access_point_poe_in/friss.html",
-   "price": "48 000 Ft",
+   "price": "40 000 Ft",
    "on_hold": false,
    "location": "XXI. kerület",
-   "posted": "2026-11-17",
+   "posted": "ma 12:56",
    "category": "Access point",
-   "last_seen": "2026-11-23 11:20",
+   "last_seen": "2026-11-23 14:32",
    "first_seen": "2026-11-16 07:37",
    "notified": true,
    "is_new": false
@@ -117,7 +117,7 @@
    "location": "Kiskunhalas",
    "posted": "ma 08:00",
    "category": "Access point",
-   "last_seen": "2026-11-23 11:20",
+   "last_seen": "2026-11-23 14:32",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -190,9 +190,9 @@
    "price": "29 000 Ft",
    "on_hold": true,
    "location": "Nyírbátor",
-   "posted": "tegnap 12:00",
+   "posted": "ma 12:00",
    "category": "Access point",
-   "last_seen": "2026-11-23 11:20",
+   "last_seen": "2026-11-23 14:32",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -222,7 +222,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-15",
    "category": "Switch",
-   "last_seen": "2026-11-23 11:20",
+   "last_seen": "2026-11-23 14:32",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
