@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22 22:56",
+ "updated": "2026-11-23 02:15",
  "last_push_day": "2026-11-22",
  "listings": [
   {
@@ -10,9 +10,9 @@
    "price": "55 000 Ft",
    "on_hold": false,
    "location": "I. kerület, XVI. kerület, Pécel",
-   "posted": "ma 16:41",
+   "posted": "tegnap 16:41",
    "category": "Access point",
-   "last_seen": "2026-11-22 22:56",
+   "last_seen": "2026-11-23 02:15",
    "first_seen": "2026-11-22 16:51",
    "notified": true,
    "is_new": false
@@ -25,9 +25,9 @@
    "price": "45 000 Ft",
    "on_hold": false,
    "location": "I. kerület, XVI. kerület, Pécel",
-   "posted": "ma 16:35",
+   "posted": "tegnap 16:35",
    "category": "Access point",
-   "last_seen": "2026-11-22 22:56",
+   "last_seen": "2026-11-23 02:15",
    "first_seen": "2026-11-22 16:51",
    "notified": true,
    "is_new": false
@@ -55,9 +55,9 @@
    "price": "30 000 Ft",
    "on_hold": false,
    "location": "Kecskemét",
-   "posted": "ma 20:42",
+   "posted": "tegnap 20:42",
    "category": "Access point",
-   "last_seen": "2026-11-22 22:56",
+   "last_seen": "2026-11-23 02:15",
    "first_seen": "2026-11-21 20:03",
    "notified": true,
    "is_new": false
@@ -102,7 +102,7 @@
    "location": "XXI. kerület",
    "posted": "2026-11-17",
    "category": "Access point",
-   "last_seen": "2026-11-22 22:56",
+   "last_seen": "2026-11-23 02:15",
    "first_seen": "2026-11-16 07:37",
    "notified": true,
    "is_new": false
@@ -115,9 +115,9 @@
    "price": "40 000 Ft",
    "on_hold": true,
    "location": "Kiskunhalas",
-   "posted": "ma 16:00",
+   "posted": "tegnap 16:00",
    "category": "Access point",
-   "last_seen": "2026-11-22 22:56",
+   "last_seen": "2026-11-23 02:15",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -190,9 +190,9 @@
    "price": "29 000 Ft",
    "on_hold": true,
    "location": "Nyírbátor",
-   "posted": "ma 12:00",
+   "posted": "tegnap 12:00",
    "category": "Access point",
-   "last_seen": "2026-11-22 22:56",
+   "last_seen": "2026-11-23 02:15",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -222,7 +222,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-15",
    "category": "Switch",
-   "last_seen": "2026-11-22 22:56",
+   "last_seen": "2026-11-23 02:15",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
