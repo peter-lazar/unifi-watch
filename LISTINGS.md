@@ -1,6 +1,6 @@
 # UniFi access points & switches
 
-Last update: **2026-11-26 17:11** (Budapest time) · 18 listings · 🆕 = new in the last run
+Last update: **2026-11-26 20:16** (Budapest time) · 18 listings · 🆕 = new in the last run
 
 ## Access point (11)
 
