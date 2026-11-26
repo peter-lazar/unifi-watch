@@ -1,7 +1,22 @@
 {
- "updated": "2026-11-26 11:18",
- "last_push_day": "2026-11-25",
+ "updated": "2026-11-26 14:34",
+ "last_push_day": "2026-11-26",
  "listings": [
+  {
+   "id": "hva-7818489",
+   "source": "HardverApró",
+   "title": "Ubiquiti Unifi Switch Pro 24 - Gigabit PoE Switch",
+   "url": "https://hardverapro.hu/apro/ubiquiti_unifi_switch_pro_24_gigabit_poe_switch/friss.html",
+   "price": "190 000 Ft",
+   "on_hold": false,
+   "location": "XIII. kerület",
+   "posted": "ma 11:34",
+   "category": "Switch",
+   "last_seen": "2026-11-26 14:34",
+   "first_seen": "2026-11-26 14:34",
+   "notified": true,
+   "is_new": true
+  },
   {
    "id": "hva-7812254",
    "source": "HardverApró",
@@ -12,7 +27,7 @@
    "location": "I. kerület, XVI. kerület, Pécel",
    "posted": "ma 10:24",
    "category": "Access point",
-   "last_seen": "2026-11-26 11:18",
+   "last_seen": "2026-11-26 14:34",
    "first_seen": "2026-11-22 16:51",
    "notified": true,
    "is_new": false
@@ -102,7 +117,7 @@
    "location": "XXI. kerület",
    "posted": "2026-11-23",
    "category": "Access point",
-   "last_seen": "2026-11-26 11:18",
+   "last_seen": "2026-11-26 14:34",
    "first_seen": "2026-11-16 07:37",
    "notified": true,
    "is_new": false
@@ -117,7 +132,7 @@
    "location": "Kiskunhalas",
    "posted": "ma 08:00",
    "category": "Access point",
-   "last_seen": "2026-11-26 11:18",
+   "last_seen": "2026-11-26 14:34",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -190,9 +205,9 @@
    "price": "29 000 Ft",
    "on_hold": true,
    "location": "Nyírbátor",
-   "posted": "tegnap 12:00",
+   "posted": "ma 12:00",
    "category": "Access point",
-   "last_seen": "2026-11-26 11:18",
+   "last_seen": "2026-11-26 14:34",
    "first_seen": "2026-11-09 00:42",
    "notified": true,
    "is_new": false
@@ -222,7 +237,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-15",
    "category": "Switch",
-   "last_seen": "2026-11-26 11:18",
+   "last_seen": "2026-11-26 14:34",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
