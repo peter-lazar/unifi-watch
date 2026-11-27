@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 23:10",
+ "updated": "2026-11-27 02:24",
  "last_push_day": "2026-11-26",
  "listings": [
   {
@@ -25,9 +25,9 @@
    "price": "40 000 Ft",
    "on_hold": false,
    "location": "I. kerület, XVI. kerület, Pécel",
-   "posted": "ma 21:17",
+   "posted": "tegnap 21:17",
    "category": "Access point",
-   "last_seen": "2026-11-26 23:10",
+   "last_seen": "2026-11-27 02:24",
    "first_seen": "2026-11-22 16:51",
    "notified": true,
    "is_new": false
@@ -117,7 +117,7 @@
    "location": "XXI. kerület",
    "posted": "2026-11-23",
    "category": "Access point",
-   "last_seen": "2026-11-26 23:10",
+   "last_seen": "2026-11-27 02:24",
    "first_seen": "2026-11-16 07:37",
    "notified": true,
    "is_new": false
@@ -130,9 +130,9 @@
    "price": "40 000 Ft",
    "on_hold": true,
    "location": "Kiskunhalas",
-   "posted": "ma 16:00",
+   "posted": "tegnap 16:00",
    "category": "Access point",
-   "last_seen": "2026-11-26 23:10",
+   "last_seen": "2026-11-27 02:24",
    "first_seen": "2026-11-14 21:53",
    "notified": true,
    "is_new": false
@@ -237,7 +237,7 @@
    "location": "VIII. kerület",
    "posted": "2026-11-15",
    "category": "Switch",
-   "last_seen": "2026-11-26 23:10",
+   "last_seen": "2026-11-27 02:24",
    "first_seen": "2026-11-06 22:37",
    "notified": true,
    "is_new": false
