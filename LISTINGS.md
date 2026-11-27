@@ -1,12 +1,12 @@
 # UniFi access points & switches
 
-Last update: **2026-11-27 17:09** (Budapest time) · 18 listings · 🆕 = new in the last run
+Last update: **2026-11-27 20:14** (Budapest time) · 18 listings · 🆕 = new in the last run
 
 ## Access point (11)
 
 | | Item | Price | Location | Site | Posted |
 |---|---|---|---|---|---|
-|  | [Ubiquiti UAP-AC-PRO - bontatlan csomagolás](https://hardverapro.hu/apro/ubiquiti_uap-ac-pro_bontatlan_csomagolas/friss.html) | 40 000 Ft | I. kerület, XVI. kerület, Pécel | HardverApró | ma 08:21 |
+|  | [Ubiquiti UAP-AC-PRO - bontatlan csomagolás](https://hardverapro.hu/apro/ubiquiti_uap-ac-pro_bontatlan_csomagolas/friss.html) | 40 000 Ft | I. kerület, XVI. kerület, Pécel | HardverApró | ma 18:12 |
 |  | [Új Original dobozos Ubiquiti UniFi U7 Pro](https://hardverapro.hu/apro/uj_original_dobozos_ubiquiti_unifi_u7_pro/friss.html) | 55 000 Ft (on hold) | I. kerület, XVI. kerület, Pécel | HardverApró | 2026-11-22 |
 |  | [UniFi AC Mesh (UAP-AC-M) új, bontatlan](https://hardverapro.hu/apro/unifi_ac_mesh_uap-ac-m_uj_bontatlan/friss.html) | 30 000 Ft (on hold) | Kecskemét | HardverApró | 2026-11-22 |
 |  | [Ubiquiti AmpliFi Alien Wi-Fi 6 Mesh Router AFI-ALN-R 4 Gigabit LAN](https://hardverapro.hu/apro/ubiquiti_amplifi_alien_wi-fi_6_mesh_router_afi-aln/friss.html) | 40 000 Ft | Budapest, XXII. kerület | HardverApró | ma 11:13 |
